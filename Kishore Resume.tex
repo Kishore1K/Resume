@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+
+\begin{center}
+    {\Huge \scshape KISHORE K} \\ \vspace{1pt}
+    Bengaluru, KaranataKa \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (+91) 9148070176 ~ \href{mailto:reddykishore527@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{reddykishore527@gmail.com}} ~ 
+    \href{https://linkedin.com/in/kishore1k/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/kishore1k}}  ~
+    \href{https://github.com/kishore1k}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/kishore1k}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ATME COLLEGE OF ENGINEERING}{Mysuru, KA}
+      {Bachelor of Engineering in Computer Science;  GPA: 9.1}{July. 2019 -- June. 2023}
+    \resumeSubheading
+      {BEML PU COLLEGE }{KGF, KA}
+      {PU In PCMB;  Percentage: 77.6\%}{July. 2017 -- April. 2019}
+    \resumeSubheading
+      {SUMATHI JAIN HIGH SCHOOL }{KGF, KA}
+      {SSLC;  Percentage: 84.32\%}{JulY. 2016 -- May. 2017}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Machine Learning Intern}{July 2022 -- Nov 2022}
+      {Mysuru Consulting Group {\bf ( mcg.ai ) }}{Mysuru, KA}
+      \resumeItemListStart
+        \resumeItem{ As an Intern my duties was assisting in Research, development and support for the required Machine Learning Project for {\bf VoyaGenius Labs LLP}.}
+        \resumeItem{Exloperd the methods to generate the data for the ML models.}
+        \resumeItem{
+            Developed an Training data for the Model using {\bf LabelMe} 
+        }
+        \resumeItem{
+            Implemented SIFT alogrithm to detect the features in the image 
+        }
+        \resumeItem{
+            Data Preprocessing and Evaluation of the Model Results
+        }
+       
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Image Caption Generator} $|$ \emph{ Tensorflow, python, Flask, HTML, CSS}}{Feb 2023 — May 2023}
+          
+          \resumeItemListStart
+            \resumeItem{An ML project that extacts the features of the image using VGG-16 and based on features the description will be generated using LSTM we used flickr dataset for training model.}
+            \resumeItem{Developed an ML model for feature extraction and maping the feature and descriptor of the images.}
+            \resumeItem{For traing the model we used an Flickr30K dataset wher it contains and LSTM for generating the captions based on feature and previous caption.}
+            \resumeItem{We developed and simple web app to upload image and display the caption generated by the model.}
+    
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Online Examination System} $|$ \emph{HTML, CSS, Express.js, Node.js, MySQL, React.js}}{Feb 2022 — May 2022}
+          
+          \resumeItemListStart
+            \resumeItem{A web application where teacher can assign quiz for students and students can attend it and view the score.}
+            \resumeItem{Developed an  application frontend using Reactjs and used CSS for design.}
+            \resumeItem{Developed an Express Server for React Web Application and used MySQL for data storage.}
+            \resumeItem{
+            Teachers can assign exams for individual or for entire class. students can attend exam when the exam is enabled by the students. students and teacher can see the score once the student has completed his exam.
+            }
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {
+            \textbf{Feature Detection Using SIFT Alogrithm} $|$ \emph{Python, OpenCv}} {July 2022 — Nov 2022}
+          
+   
+          \resumeItemListStart
+          \resumeItem{I had Implemented SIFT algorithm in python using opencv to detect the image features.}
+          \resumeItem{SIFT algorthm is used to extact the feature and descriptors in an image as the feature are robust to affine transformations.}
+          \resumeItem{Image features extracted by SIFT are reasonably invariant to changes in the illumination image noise, rotation, scaling, and small changes in viewpoint.}
+         \resumeItem{ Developed an application to predict weather two images are same using the features detected by the SIFT.}
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL (MySQL), JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Express.js, SpringBoot, SpringMVC} \\
+     \textbf{Developer Tools}{: Git, Jenkins CI, Nexus, PostMan, Amazon Cloud Service, VS Code, IntelliJ, Jupyter Notebook, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Tensorflow}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
